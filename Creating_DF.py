@@ -26,20 +26,20 @@ print("Spark Object is Created .....")
 # df.printSchema()
 # df.show()
 
-# rdd=sc.parallelize(lst)
-# for i in rdd.collect():
+# rdd1=sc.parallelize(lst)
+# for i in rdd1.collect():
 #     print(i)
-# df=spark.createDataFrame(data=rdd, schema=('Name String , Age Long'))
+# df=spark.createDataFrame(data=rdd1, schema=('Name String , Age Long'))
 # df.printSchema()
 # df.show()
 # row=Row(name='ankit', Age=30)
 # print(row.name)
 # print(row.Age)
 #
-# rdd=spark.sparkContext.parallelize([row,Row(name='vinay', Age=27)])
-# for i in rdd.collect():
+# rdd1=spark.sparkContext.parallelize([row,Row(name='vinay', Age=27)])
+# for i in rdd1.collect():
 #     print(i)
-# df=spark.createDataFrame(data=rdd)
+# df=spark.createDataFrame(data=rdd1)
 # df.printSchema()
 # df.show()
 # data = [['tom', 10], ['dick', 15], ['harry', 20]]
