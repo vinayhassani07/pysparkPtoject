@@ -71,3 +71,4 @@ df.select(df.dept, df.salary).\
     withColumn("ntile_rank", ntile(3).over(spec)).\
     withColumn("cum_dist", cume_dist().over(spec)).\
     show()
+
