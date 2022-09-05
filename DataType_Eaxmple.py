@@ -84,9 +84,6 @@ d1 = [
     ("maria", [168, 89, 190])
 ]
 
-
-
-
 df_arr = spark.createDataFrame(data=d1, schema=schema_arry)
 
 df_arr.printSchema()

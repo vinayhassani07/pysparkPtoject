@@ -1,0 +1,5 @@
+ root - ERROR - Error Occurred.
+Traceback (most recent call last):
+  File "C:\Users\ROG\PycharmProjects\pysparkPtoject\loggingTest.py", line 11, in <module>
+    print(sal)
+NameError: name 'sal' is not defined
